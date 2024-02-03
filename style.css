@@ -1,0 +1,282 @@
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(asset\ 9.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vh);
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.next{
+    display: flex;
+    gap: 10px;
+}
+
+nav{
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;
+    height: 62px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
+}
+
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(46, 45, 45);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.white-sm{
+    padding: 0px 6px;
+    color: white;
+    background-color: rgba(93, 90, 90, 0.45);
+    border-radius: 4px;
+    border: 1px solid white;
+    
+    font-weight: 400;
+}
+
+.red-sm{
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+}
+
+.red-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.main input{
+    padding: 17px 122px 15px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+}
+
+.video{
+    position: relative;
+    height: 80vh;
+}
+
+.video img{
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.video video{
+    position: absolute;
+    top: 84px;
+    right: 1px;
+}
+
+.text :first-child{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.text :nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.another-one{
+    height: 80vh;
+}
+
+.another-one img{
+    margin-top: 40px;
+}
+
+.another-one video{
+    right: 113px;
+    top: 75px;
+    width: 63%;
+}
+
+.second-one, .fourth-one img{
+    top: 50px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 34px;
+}
+
+.boxes-main{
+    color: white;
+}
+.boxes{
+    background-color: grey;
+    padding: 24px;
+    max-width: 50vw;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.boxes:hover{
+    background-color: rgb(46, 45, 45);
+}
+
+.mail{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding:40px 0;
+}
+
+.write{
+    font-size: 20px;
+    
+}
+
+.mail input{
+    padding: 17px 122px 15px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(49, 49, 49, 0.849);
+    
+}
+a{
+    color: rgb(194, 186, 186);
+}
+footer{
+    color: rgb(194, 186, 186);
+    margin: 72px 126px;
+}
+.lines{
+    display: flex;
+}
+.que{
+    font-size: 18px;
+    
+}
+.first-line{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    width: 25%;
+}
+.first-line button{
+    padding: 8px 8px;
+    font-weight: bold;
+    background-color: rgba(49, 49, 49, 0.849) ;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+}
